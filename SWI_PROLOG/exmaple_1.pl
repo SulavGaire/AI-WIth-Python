@@ -1,0 +1,9 @@
+male(shyam).
+male(ram).
+male(hari).
+male(sulav).
+male(aayush).
+female(sita).
+mortal(X):-person(X).
+person(X):-female(X).
+person(X):-male(X).
